@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" 
+          href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <script src="https://kit.fontawesome.com/votre_kit_id.js" crossorigin="anonymous"></script>
+    <title>portfolio</title>
+</head>
+<body>
+    <!-- section header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading" >Tatiagoum Brandon</h2>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="link" href="#home">Home</a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="link" href="#portfolio">portfolio</a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="link" href="#about">A propos</a>
+                    </li>
+                    
+                    <li class="menu-list-items">
+                        <a class="link" href="#services">Services</a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="link" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        
+            <!-- Menu hamburger -->
+            <a id="hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+          </a>
+
+          <!-- menu responsive avec hamburger -->
+          <nav role="navigation" id="responsive_nav" class="responsive_nav">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li >
+                    <a  href="#portfolio">portfolio</a>
+                </li>
+                <li>
+                    <a href="#about">A propos</a>
+                </li>
+                
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#contact">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bande d'affiche de l'accueil -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="heading">
+                <h3 class="saluer-entete">Hello, Je m'appelle</h3>
+                <h1 class="mon-entete"> Tatiagoum Brandon</h1>
+                <h4 class="sub-entete"> En cycle d'Ingenieur Genie Logiciel.</h4>
+            </div>
+            <div class="intro-buttons">
+                <button class="btn common-btn" >Engagez moi</button>
+                <button class="btn ghost-btn" >Obtenez le Resumer</button>
+            </div>
+            <div class="icon-fontawisome">
+              <a href=""><ion-icon class="ion" name="logo-github"></ion-icon></a>
+             <a href=""><ion-icon name="logo-linkedin"></ion-icon></a> 
+            </div>
+
+    </section>
+
+
+    <!--portfolio-->
+    <section id="portfolio" class="portfolio">
+        <div class="portfolio-heading">
+            <h1 class="my-heading text-center">Quelques Réalisations.</h1> 
+        </div> 
+        <div class="portfolio-content"> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="img/Capture d'écran 2024-03-25 112313.png" 
+                                 alt="Web Design Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">Web Design</h3> 
+                        <p class="small-para blue-text">Formulaire d'inscription personnalisé</p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="img/Capture d'écran 2024-03-25 112416.png" 
+                                 alt="Web Development Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Web Development 
+                          </h3> 
+                        <p class="small-para blue-text">site de location d'engins de construction</p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="img/affiche.jpg" alt="SEO Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">Illustration</h3> 
+                        <p class="small-para blue-text">Eclerage d’un verre au sol </p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+        </div>
+    </section>
+
+<!-- About Section -->
+<section id="about" class="about"> 
+    <div class="about-text"> 
+        <h1 class="my-heading">A propos </h1> 
+        <p class="lead-para"> 
+          Je suis un étudiant en second cycle de génie logiciel.
+           Passionné et enthousiaste par les nouvelles Technologie et le monde qui les entoure,
+            mon quotidien est fait de découverte et d’apprentissage de cet univers ;
+            un monde dont la connaissance est à perte de vue, un monde ou la créativité ne saisse d’évolué, 
+            un monde dans lequel l’acquisition du savoir et l’accessibilité aux données se font en quelque cliques. <br>  
+Grace aux nouvelles technologies,
+ j’ai pu acquérir des connaissances de basse en développement logiciel,
+  développement web, Design, services cloud, 
+  et bien d’autre ou chaque jours je m’atèle a agrandir mes connaissance sur le sujet.
+
+        </p> 
+    </div> 
+    <div class="about-image"> 
+        <img src="img/development-4536630_1280.webp" alt="About Image"> 
+    </div> 
+</section> 
+
+ <!-- Services Section -->
+ <section class="services" id="services"> 
+    <div class="services-heading"> 
+        <h1 class="my-heading text-center">Mes aptitudes </h1> 
+    </div> 
+    <div class="services-content"> 
+        <div class="my-row"> 
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <div class="icon"> 
+                      <img src="img/web-design-svgrepo-com.svg" alt="">
+                    </div> 
+                    <h3 class="greet-heading blue-text">Web Design</h3> 
+                    <p class="small-para"> 
+                      Le design d’un site web encore appeler dans le jargon ‘’vue’’
+                       fait parti des points essentiel de la conception 
+                       des site et application web de nos jours ;
+                       d’où mon intérêt particulier pour celui-ci.
+                        En cours de maitrise des Framework tel que React ou encor JQuery,
+                       je commence mon assamtion vers le web design.
+                    </p> 
+                    <p class="small-para"> 
+                      La conception d’un site est primordiale avant son codage ou son implémentation.
+                       C’est pour cela que le web design englobe la conception des site avec des logiciel tel que Astah, 
+                       Modelio ou des plateforme tel que Figma,
+                       Canvas dont j’en maitrise quelque un. 
+                    </p> 
+                </div> 
+            </div> 
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <div class="icon"> 
+                        <img src="img/web-development-svgrepo-com.svg" alt="">
+                    </div> 
+                    <h3 class="greet-heading blue-text"> 
+                          Web Development 
+                      </h3> 
+                    <p class="small-para"> 
+                      En cours d’acquisitions depuis un ans déjà,
+                       mes compétences en matière de développement web sont actuellement au niveau junior. 
+                        Face a ce vaste domaine de la technologie qu’est le développements web,
+                       je m’atèle a maitrisé la complexité du métier.
+                    </p> 
+                    <p class="small-para"> 
+                      Actuellement je maitrise les langages de développements web tel que HTML/CSS,
+                       une modeste maitrise du JavaScript et ces Framework ainsi que le PHP ;
+                       et prochainement je compte évoluer dans le langage Python et Java.  
+                    </p> 
+                </div> 
+            </div> 
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <div class="icon"> 
+                        <img src="img/database-svgrepo-com.svg" alt="">
+                    </div> 
+                    <h3 class="greet-heading blue-text">Base de Données</h3> 
+                    <p class="small-para"> 
+                        Du dynamisme comme on l’aime. 
+                        Que serais un site web sans base de données. Collecter,
+                         stocker, traiter et analyser 
+                        les données représente le concept même de l’informatique. 
+                    </p> 
+                    <p class="small-para"> 
+                        Toujours en cours de maitrise, 
+                        le langage de requête SQL est actuellement mon combat.
+                         J’ai des connaissances assez grandes sur les SGBD tel que PHPMyAdmin,
+                          MariaDB. 
+                    </p> 
+                </div> 
+            </div> 
+        </div> 
+        <div class="my-row"> 
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <div class="icon"> 
+                        <img src="img/cloud-backup-svgrepo-com.svg" alt=""> 
+                    </div> 
+                    <h3 class="greet-heading blue-text"> 
+                          Solution Cloud 
+                      </h3> 
+                    <p class="small-para"> 
+                        Aujourd’hui indispensable pour un travail en collaboration
+                         ou en équipe, le cloud est une technologie 
+                        révolutionnaire dont tous développeurs devrais se mettre au parfum. 
+                    </p> 
+                    <p class="small-para"> 
+                        Mes capacite s’étende jusqu’à l’implémentation des
+                         services cloud tel que PaaS, SaaS, IaaS et bien au-delà.
+                    </p> 
+                </div> 
+            </div> 
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <div class="icon"> 
+                        <img src="img/vector-tool-svgrepo-com.svg" alt="">
+                    </div> 
+                    <h3 class="greet-heading blue-text"> 
+                          Illustration Graphique
+                      </h3> 
+                    <p class="small-para"> 
+                        Réaliser des dessins via l’ordinateur est pour moi une passion.
+                         Bien que difficile et demande beaucoup de temps,
+                         l’illustration graphiques me conduiras directement vers l’animation.
+                    </p> 
+                    <p class="small-para"> 
+                        Sur la voie de l’illustration, 
+                        j’appréhende actuellement les outils tel que,
+                         Krita, Illustrator, clip studio. 
+                    </p> 
+                </div> 
+            </div> 
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <div class="icon"> 
+                        <img src="img/app-developer-svgrepo-com.svg" alt="">
+                    </div> 
+                    <h3 class="greet-heading blue-text"> 
+                          Developpeur logiciel 
+                      </h3> 
+                    <p class="small-para"> 
+                        Grace a de nombreuse documentation et formations,
+                         le métier de développeur logiciel n’aura bientôt plus de secret pour moi.
+                          Face à l’avancée technologique plus que grandissante,
+                           les exigences et les besoins en matière de logiciel ne font que s’accroitre.
+                         Plus les systèmes sont complexe plus les logiciels doivent être précisent.
+                    </p> 
+                    <p class="small-para"> 
+                        Au jours d’aujourd’hui, 
+                        j’ai des notions des base dans certain langage 
+                        de programmation logiciel tel que, JAVA, C/C++,
+                         Python et plus tard je me lancerais dans la 
+                         programmation embarquée. 
+                    </p> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+</section> 
+
+<!-- Contact me section -->
+<section class="contact" id="contact"> 
+    <div class="contact-heading"> 
+        <h1 class="my-heading text-center">Me contacté </h1> 
+    </div> 
+    <div class="contact-content"> 
+        <div class="contact-form-container"> 
+            <h1 class="greet-heading">Entrz en Conctact</h1> 
+            <form class="contact-form"> 
+                <input class="form-controls" type="text" 
+                       placeholder="Votre Nom"> 
+                <input class="form-controls" type="text" 
+                       placeholder="Votre Email"> 
+                <input class="form-controls" type="text" 
+                       placeholder="Votre Numero"> 
+                <textarea class="form-controls" 
+                          placeholder="Ecrivez votre message" 
+                          name="message" id="" cols="30"
+                          rows="10"> 
+                  </textarea> 
+                <input class="form-btn btn common-btn" 
+                       type="submit" value="Envoyez le Message"> 
+            </form> 
+        </div> 
+        <div class="contact-details"> 
+            <h1 class="greet-heading">Details conctacts</h1> 
+            <div class="details"> 
+                <h5 class="contact-heading">EMAIL</h5> 
+                <p class="contact-text">eresardev@gmail.com</p> 
+            </div> 
+            <div class="details"> 
+                <h5 class="contact-heading">PHONE</h5> 
+                <p class="contact-text">+237 695261817 <br>+237 692839873</p> 
+            </div> 
+            <div class="details"> 
+                <h5 class="contact-heading">FAX</h5> 
+                <p class="contact-text">+237 621067024</p> 
+            </div> 
+            <div class="details"> 
+                <h5 class="contact-heading">ADDRESS</h5> 
+                <p class="contact-text">Bafoussam, Ndiendam</p> 
+                <p>Yaounde, NKAUBANG</p>
+            </div> 
+        </div> 
+    </div> 
+</section> 
+
+<!-- Footer section -->
+<footer class="footer"> 
+    <div class="footer-content text-center"> 
+        <h4> 
+            Copyright © 2024 tous droit réservée | 
+            se portfolio a été créée par Tatiagoum Brandon 
+        </h4> 
+        <div class="social-links"> 
+            <div class="footer-menu"> 
+                <ul class="footer-menu-list"> 
+                    <li class="footer-list-items"> 
+                        <a class="footer-links" href="#"> 
+                            <i class="fab fa-facebook-f"></i> 
+                        </a> 
+                    </li> 
+                    <li class="footer-list-items"> 
+                        <a class="footer-links" href="#"> 
+                            <i class="fab fa-twitter"></i> 
+                        </a> 
+                    </li> 
+                    <li class="footer-list-items"> 
+                        <a class="footer-links" href="#"> 
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                           </a> 
+                    </li> 
+                    <li class="footer-list-items"> 
+                        <a class="footer-links" href="#"> 
+                            <i class="fab fa-linkedin-in"></i> 
+                        </a> 
+                    </li> 
+                </ul> 
+            </div> 
+        </div> 
+    </div> 
+</footer> 
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
