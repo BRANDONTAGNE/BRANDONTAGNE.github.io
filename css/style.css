@@ -50,13 +50,27 @@ body
     display: flex;
     list-style: none;
 }
-.menu-list .menu-list-items 
+.menu-list .menu-list-items, .button
 {
     padding: 0.5rem 1rem;
 }
-
+.button a
+{
+    text-decoration: none;
+    color: #ccc;
+    background-image: linear-gradient(45deg, #363D73, #2794B3); 
+    padding: 10px;
+    border-radius: 25px 5px 25px 5px;
+    box-shadow: 5px 5px 16px #2794B3;
+    transition: all 0.75s ;
+}
+.button .link-sp:hover
+{
+    transform: scale(1.2);
+    background-color: #e3f1ec;
+}
 @media screen and (min-width:856px) and (max-width:1024px) {
-    .menu-list .menu-list-items 
+    .menu-list .menu-list-items, .butt
 {
     padding: 0.5rem 0.3rem;
 }
@@ -105,6 +119,7 @@ body
     font-size: 0.8rem;
     color: #ccc;
     font-weight: lighter;
+    margin-bottom: 22px;
 }
 
 .link
@@ -121,11 +136,11 @@ body
 .btn
 {
     padding: 10px 10px;
-    margin-top: 15px;
     border-radius: 5px;
     cursor: pointer;
     letter-spacing: 1px;
     border: none;
+    text-decoration: none;
 }
 .common-btn
 {
@@ -159,6 +174,33 @@ body
     margin-left: 1.2rem;
 }
 
+/* icon links */
+.icon-fontawisome
+{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    margin-right: 2.5rem;
+    margin-top: 1.0rem;
+}
+.icon-fontawisome a{
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    width: 50px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.ion{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
 
  
 /* About section styles */
@@ -177,9 +219,9 @@ body
 } 
   
 .about .about-image img { 
-    height: 400px; 
-    width: 450px; 
-    padding: 5rem 5rem 5rem 1rem; 
+    height: 700px; 
+    width: 750px; 
+    margin-right: 5.5rem;
 } 
   
 
@@ -194,7 +236,7 @@ body
 
 .port-card{
     padding: 0 !important;
-    background: #e3f1ec !important;
+    background: #f8f8f8 !important;
 }
 .port-card:hover
 {
@@ -203,11 +245,18 @@ body
 }
 .port-card .image 
 {
+    display: grid;
+    position: relative;
     width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 .port-card .image  img
 {
-    height: 200px;
+    position: relative;
+    height: 100%;
     width: 100%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -372,24 +421,6 @@ body
 
   
 /* utility classes */
-.greet-heading { 
-    font-size: 1.3rem; 
-    font-weight: lighter; 
-    margin: 0; 
-    letter-spacing: 1px; 
-} 
-  
-.my-heading { 
-    font-size: 2.5rem; 
-    margin: 0; 
-} 
-  
-.sub-heading { 
-    margin: 0; 
-    font-size: 0.8rem; 
-    color: #ccc; 
-    font-weight: lighter; 
-} 
   
 .links:hover { 
     border-bottom: 2px solid #fff; 
@@ -401,35 +432,6 @@ body
     padding: 5px; 
     text-decoration: none; 
     color: #fff; 
-} 
-  
-.btn { 
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    letter-spacing: 1px; 
-    border: none; 
-} 
-  
-.common-btn { 
-    background-color: #35A99C; 
-    color: #fff; 
-    border: 2px solid #35A99C; 
-    transition: all 0.25s; 
-} 
-  
-.common-btn:hover { 
-    background-color: #fff; 
-    color: #35A99C; 
-    border: 2px solid #35A99C; 
-    outline: none; 
-} 
-  
-.ghost-btn { 
-    background-color: #fff; 
-    color: #35A99C; 
-    border: 2px solid #35A99C; 
-    outline: none; 
 } 
   
 .ghost-btn:hover { 
