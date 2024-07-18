@@ -175,6 +175,7 @@
     .navbar
     {
         position: relative;
+        width: 100%;
         overflow-x: hidden;
     }
     
@@ -188,15 +189,14 @@
         top: 0;
         width: 100vw;
         height: 100vh;
-
         z-index: 99;
         /* Ici, nous cachons, dans un premier temps, le menu responsive à droite de l'écran,
          à l'aide de la propriété transform : translate(200%, 0);.
          Cela implique l'apparition de la barre de défilement verticale.
          Nous ajoutons donc 2 propriétés à notre <div id="root"> pour la désactiver. */
         transform-origin: 0% 0%;
-        transform: translate(200%, 0);
-
+        transform: translate(0%, 0);
+        transform: scale(-1);
         transition: transform s cubic-bezier(0.77, 0.2, 0.05, 1);
     }
 
